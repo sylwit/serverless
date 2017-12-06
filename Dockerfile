@@ -1,4 +1,4 @@
-FROM node:latest
+FROM circleci/node:6.12
 
 # install yarn
 RUN curl -o- -L https://yarnpkg.com/install.sh | bash
