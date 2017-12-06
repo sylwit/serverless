@@ -363,3 +363,5 @@ These consultants use the Serverless Framework and can help you build your serve
 You can find projects and plugins relating to version 0.5 [here](./0.5.x-RESOURCES.md). Note that these are not compatible with v1.0 but we are working diligently on updating them. [Guide on building v1.0 plugins](./docs/providers/aws/guide/plugins.md).
 
 You can read the v0.5.x documentation at [readme.io](https://serverless.readme.io/v0.5.0/docs).
+
+This image is auto build on [docker hub](https://hub.docker.com/r/sylwit/docker-apache-newrelic/)
