@@ -4,10 +4,13 @@ FROM circleci/node:6.12
 RUN curl -o- -L https://yarnpkg.com/install.sh | bash
 
 # install python tooling
-RUN apt-get update -y && apt-get install -y python-dev python-pip && pip install --upgrade pip
+RUN sudo apt-get update -y && sudo apt-get install -y python-dev python-pip && sudo pip install --upgrade pip
 
 # install other utils
-RUN apt-get update -y && apt-get install -y screen
+RUN sudo apt-get update -y && sudo apt-get install -y screen
 
 # install aws-cli
-RUN pip install awscli
+RUN sudo pip install awscli
+
+# install serverless
+RUN sudo npm install -g serverless
